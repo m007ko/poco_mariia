@@ -1,0 +1,9 @@
+Solution
+1) Mom and dad ran throw the tunnel (2 min)
+2) Dad ran back with torch (1 min)
+3) Son and daughter ran together (5 min)
+4) Mom ran back with torch (2 min)
+5) Mom and dad ran together (2 min)
+
+
+total: (2+1+5+2+2 = 12 minutes) 
