@@ -1,0 +1,12 @@
+Ex. 3.1.1 (*) - Print greeting
+Create a program that prompts for your name and prints a greeting using 
+your name.
+
+Solution: 
+1) Ask user to write their name ( variable <user name> - string)
+2) Check, if it start from capital letter. If not - write messege "Write 
+from capital letter." Otherwise - next step. (or convert to first capital 
+letter) 
+3) Print "Hi, <user name>! Have a nice day!"
+
+
