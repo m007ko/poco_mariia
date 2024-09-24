@@ -1,0 +1,9 @@
+Ex. 3.1.4 (*) - Subtract numbers ca. 45 min
+Allow the user to input numbers, subtract the smaller from the bigger number and print the result.
+
+Solution:
+1) declarate 2 variable numbers. 
+2) Promt user for 2 imput 
+3) Validate if imput is float 
+4) 
+
