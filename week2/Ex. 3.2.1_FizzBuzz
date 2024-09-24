@@ -3,5 +3,10 @@ Write a program that prints the numbers from 1 to 100. But for multiples of thre
 number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print
 "FizzBuzz". 
 
-Solution.
-1. 
+Solution. 
+1. Loop through the number 1 to 100.
+2. For each number check:
+- If the current number can be divided by 5 without any rest (also known as modulo) as well as it can be divided by 7 without any rest, then print "FizzBuzz".
+- If the current number is divisible by 3, but not by 5 (returns a rest), then print "Fizz".
+- If the current number is divisible by 5, but not by 3 (returns a rest), then print "Buzz".
+In any other case just print the currentNumber.
