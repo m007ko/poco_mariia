@@ -1,0 +1,16 @@
+//Ex. 4.1.5 (*) - Even or Odd
+//Write a program that asks for the user to input a number:
+//• If the number is even, print "The number is even."
+//• If the number is odd, print "The number is odd."
+//• If it is not a number, print "This is not a number."
+
+variant 1 
+let number = prompt ("Write number")
+if (number % 2 === 0) { "this number is even."}
+else "this number is odd."  
+
+variant 2
+let number = prompt ("Write number")
+switch (number % 2) {
+  case 0:  "even"; break;
+  case 1: "odd"; break; }
