@@ -1,0 +1,18 @@
+//Want to find out how old you’ll be? Calculate it!
+//• Use prompt() and alert().
+//• Ask user for birth year.
+//• Ask user for a future year.
+//• Calculate the 2 possible ages for the given year.
+//• Output them to the screen/console like so: "I will be either NN or NN in YYYY", substituting the values.
+// For example, if you were born in 1988, then in 2026 you’ll be either 37 or 38, depending on what month it is in 2026.
+
+let birthYear = prompt ("Please write your year of birth");
+let futureYear = prompt ("Please write year for calculation");
+
+if(!birthYear || !futureYear) throw Error("this not a string..");
+
+let birthYearNumber = Number(birthYear);
+let futureYearNumber = Number(futureYear);
+let result = futureYearNumber - birthYearNumber;
+
+console.log("I will be either " + result +" or " + Number(result+ 1) + " in " + futureYearNumber) 
