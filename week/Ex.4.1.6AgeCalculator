@@ -15,4 +15,4 @@ let birthYearNumber = Number(birthYear);
 let futureYearNumber = Number(futureYear);
 let result = futureYearNumber - birthYearNumber;
 
-console.log("I will be either " + result +" or " + Number(result+ 1) + " in " + futureYearNumber) 
+alert("I will be either " + result +" or " + Number(result+ 1) + " in " + futureYearNumber) 
