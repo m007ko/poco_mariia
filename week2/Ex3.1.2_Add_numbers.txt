@@ -2,12 +2,13 @@ Ex. 3.1.2 (*) - Add numbers ca. 30 min
 Allow the user to input numbers, add them and print the result.
 
 Solution: 
-1) Ask user to imput list of number space sepated. 
+1) Ask user to imput list of number space sepated (x1 x2 x3 ....xn). 
 2) Check if all imput are integer or float. If not - write message "Check 
 your input - it should be number and space separated.
 3) Create Function Summ, which summ up all it arguments. 
 
 summ (x1 x2 x3 ....xn) == x1 + x2 + x3 + ...xn
+4) Run function summ on user imput. 
 
-4) print result of this running this function. 
+5) print result of this running this function. 
   
