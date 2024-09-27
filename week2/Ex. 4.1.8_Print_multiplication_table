@@ -1,0 +1,8 @@
+// Ex. 4.1.8 (*) - Print multiplication table
+// Write a program that prints the multiplication table of the number 7. (Use a loop)
+
+let numbers = [1,2,3,4,5,6,7,8,9];
+for (let iterator = 0; iterator < numbers.length; iterator++){
+let multiply = Number(numbers[iterator]) * 7; 
+console.log(numbers[iterator] +"*7="+ multiply)
+};
