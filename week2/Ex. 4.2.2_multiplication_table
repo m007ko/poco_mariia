@@ -1,0 +1,12 @@
+/*! Ex. 4.2.2 (**)
+Write a program that prints a multiplication table for numbers up to 10. (use nested loops)
+*/
+
+let table = [];
+for (let i = 1; i <= 10; i++) {
+    table[i] = [];
+    for (let j = 1; j <= 10; j++) {
+        table[i][j] = i * j;
+    }
+}
+console.table(table);
