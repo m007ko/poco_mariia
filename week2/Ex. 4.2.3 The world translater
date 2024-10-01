@@ -1,0 +1,19 @@
+
+/*! Ex. 4.2.3 (**) - The world translater ca. 30 min
+Write a function named helloWorld that:
+• Takes 1 argument, a language code (e.g. "es", "de", "en")
+• Returns "Hello, World" for the given language, for at least 3 languages. It should default to returning
+English.
+Call the function for each of the supported languages and log the result to make sure it works. */
+
+language = prompt("Write language code (e.g. 'es', 'de', 'en') ")
+listLanguage ['es', 'de', 'en']
+for (item of listLanguage {
+//if (imput  )
+
+switch (language) {
+    case 'es': console.log("Hola Mundo"); break;
+    case'de': console.log("Hallo die Welt"); break;
+    case 'en': console.log("Hello World"); break;
+    default: console.log("Hello World");
+}
