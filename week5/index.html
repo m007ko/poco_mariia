@@ -1,0 +1,173 @@
+<head>
+    <title>A Company</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <p>This is the Logo</p>
+        <nav>
+            <a href=""><p>Link</p></a>
+            <a href=""><p>Link</p></a>
+            <a href=""><p>Link</p></a>
+            <a href=""><p>Link</p></a>
+        </nav>
+    </header>
+
+    <section id="picture">
+        <h1>Welcome to this Website</h1>
+        <img id="header-img" src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?q=80&w=2703&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <p id="headerText">We are a great company</p>
+        <button type="button">Book us now</button>
+    </section>
+
+    <section id="Gallery">
+        <h2>Lets us show you our work:</h2>
+        <img class="galleryImg" src="https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <img class="galleryImg" src="https://images.unsplash.com/photo-1522152302542-71a8e5172aa1?q=80&w=2508&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <img class="galleryImg" src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <img class="galleryImg" src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    </section>
+
+    <section>
+
+    </section>
+
+    
+
+
+
+    <style>
+
+        *{
+            font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+        }
+        body{
+            margin: 0px;
+        }
+
+        header{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 50px;
+            background-color: bisque;
+            position: sticky; /*Added*/
+            top: 0; /*Added*/
+            z-index: 100;/*Added*/
+
+            /*Make this header always stick to the top of the page*/
+        }
+
+        h1{
+            /*Make this header overlay on the image and center it vertically and horizontally (do not use flexbox)*/
+            /*also style it*/
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 3em;
+            text-align: center; 
+            z-index: 50;
+
+        }
+
+        h2{
+            /*position this element in a way that it scrolls with the content 
+            to the top of the page and then let the images flow behind it*/
+
+            /*also style it*/ 
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            font-size: 3em;
+            text-align: center;
+
+        }
+
+        #headerText{
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, 0);
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+
+        button{
+            height: 30px;
+            background-color: lightblue;
+            color: white;
+            border: none; 
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, 0);
+            padding: 0 20px;
+            cursor: pointer;
+            
+        }
+
+        button:hover{
+            background-color: coral;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            width: 50vw;
+        }
+
+        #header-img{
+            width: 100vw;
+            height: 400px;
+            object-fit: cover;
+            z-index: 10;
+
+        }
+
+        article{
+            height: 50px;
+            width: 50px;
+            background-color: green;
+        }
+
+        #Gallery{
+            background-color: antiquewhite;
+            text-align: center;
+            padding: 50px 0px;
+            position: relative;
+        }
+
+        .galleryImg{ /*Option challenge: Spread the images out "radomly", stack then on top of each other etc.*/
+            display: block;
+            object-fit: cover;
+            width: 50vw;
+            height: 300px;
+            margin: auto;
+            margin-bottom: 50px;
+        }
+
+        #picture {
+            position: relative;
+        }
+    
+        .galleryImg {
+            display: block;
+            object-fit: cover;
+            width: 50vw;
+            height: 300px;
+            margin: 50px auto;
+            position: relative;
+        }
+
+
+    </style>
+</body>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Footer Example</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #f0f0f0;
+            padding: 1rem;
+            text-align: center;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: sticky;
+        } 
+        #features{
+        display: flex; 
+        justify-content: space-around; 
+        }
+
+        #feature1{
+        background-color: yellowgreen; 
+        padding: 1rem;  
+        } 
+        #feature2{
+        background-color: yellow; 
+        padding: 1rem;
+        } 
+
+        #feature3{
+        background-color: green;
+        padding: 1rem;   
+        }  
+
+        #content{
+        background-color: lightcoral ;
+        padding: 1rem;   
+        }  
+        
+        #signUp{
+        background-color: lightseagreen;
+        padding: 1rem;   
+        }  
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+    </header>
+    <main>
+        <div id ="features"> 
+        <div id ="feature1"> feature 1 </div>
+        <div id ="feature2"> feature 2 </div>
+        <div id ="feature3"> feature 3 </div>
+        </div>
+
+        <div id ="content"> content </div> 
+        <div id ="signUp"> sign Up </div> 
+    </main>
+    <footer>
+        <p>&copy; 2024 Mariia's Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
