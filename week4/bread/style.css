@@ -1,0 +1,53 @@
+body {
+    color: black;
+}
+
+#summary {
+    font-style: italic;  
+}
+
+h1, h2, h3, #callToAction {
+    color: rgb(156, 67, 19);
+    text-decoration: underline;
+}
+
+ h1 {
+    font-size: 3em;
+    border: 2px double #A4822C;
+    text-shadow: 2px 2px 2px #1C6EA4;
+    text-align: center;
+    height: 3em;
+
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+/*article { 
+    border: 2px double #A4822C;
+} */
+
+ul {
+    font-style: italic;
+}
+
+#callToAction {
+ text-align: center;
+}
+
+.equipment, .ingredient {
+    padding-left: 1cm;
+}
+
+form {
+    margin: auto;
+}
+
+fieldset {
+    background-color: rgba(249, 247, 191, 0.879);
+}

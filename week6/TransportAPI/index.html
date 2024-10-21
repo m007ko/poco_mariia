@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport Connection App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Swiss Transport Connections</h1>
+    <form id="transportForm">
+        <label for="fromCity">From:</label>
+        <input type="text" id="fromCity" name="fromCity" required>
+        <label for="toCity">To:</label>
+        <input type="text" id="toCity" name="toCity" required>
+        <button onclick="onSubmit(event)">Get Connection</button>
+    </form>
+
+    <div id="connectionResult"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
